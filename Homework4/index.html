@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Homework4</title>
+<style>
+    body {
+        background-color:yellow;
+    }
+
+    .flex-container div {
+        display: flex;
+         align-content: flex-end;
+         
+        }
+        #sticky {
+        background-color:red;
+        position: sticky;
+        height: 100px;
+        
+        
+         }
+         .flex-container div {
+             display: flex;
+             align-content: flex-start;
+             
+         }
+         #absolut {
+             
+             background-color: blue;
+             position: absolute;
+             height: 650px;
+             width: 300px;
+             color:blue;
+         }
+         .flex-container {
+             display: flex;
+             align-content: flex-end;
+            
+         }
+         #relative {
+             background-color: green;
+             position: relative;
+             height: 100px;
+             top: 550px;
+             color: green;
+              } 
+
+
+    
+</style>
+</head>
+<body>
+    <div id="sticky"class="flex-container"></div>
+    <div id="absolut" class="flex-container">2</div>
+    <div id="relative" class="flex-container">3</div>
+    
+</body>
+</html>
