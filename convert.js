@@ -4,7 +4,7 @@ function conversionCelsius(f) {
 
 }
 
-var f = 43
+var f = 54
 var x = conversionCelsius(f)
 console.log(x)
 
