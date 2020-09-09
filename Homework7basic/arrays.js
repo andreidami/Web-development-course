@@ -7,5 +7,6 @@ function sumPozitive(numbers) {
   var numbers = [-2, 10, 2, 4, -6, 3];
  
      
+  
 console.log(sumPozitive(numbers));
 

@@ -4,6 +4,7 @@ var animal = {
     gut: [ "berries", "flowers"],
     food: "nuts",
 
+    
     eat: function() {
         return this.gut + " " + this.food;
     }
